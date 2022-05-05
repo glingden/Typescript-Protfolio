@@ -1,0 +1,49 @@
+@import './variable';
+
+/*-- Contact form --*/
+.contact{
+  margin-top: 8rem;
+}
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: 5% 32% 5%;
+  }
+  
+  .contact__input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 2rem;
+    width: 100%;
+    border: 2px gainsboro solid;
+    border-radius: 5px;
+  }
+  
+  .contact__textarea {
+    height: 10rem;
+    width: 100%;
+    border: 2px gainsboro solid;
+    border-radius: 0.3rem;
+  }
+  
+  .contact__form button {
+    padding: 3px;
+    background-color: white;
+    height: 5vh;
+    width: 15vh;
+  }
+  
+  .contact__form button:hover {
+    background-color: $hover-color;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .contact__form {
+      margin: 5% 3% 5%;
+    }
+  }
+
+  

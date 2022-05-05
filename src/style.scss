@@ -1,0 +1,68 @@
+
+
+@import './SASS/variable';
+
+
+/*|| -- General styling --*/
+* {
+    box-sizing: border-box;
+   }
+  
+  html {
+    scroll-behavior: smooth; 
+  }
+  
+  
+  body{
+    font-family: $default-font-family;
+    color: $text-default-color;
+    font-size: 1.1rem;
+    background-color: rgb(179, 128, 135);
+    
+  }
+  
+
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+    font-family: $default-font-family; 
+  }
+ 
+
+  p{
+    font-family: $default-font-family;
+    padding: 0rem;
+    
+    
+  }
+
+  
+  main{
+    margin: 0 $margin 0;
+  }
+  
+  hr{
+    border: 1px $border-color solid;
+    margin: 0; 
+  }
+  
+
+    
+/* || Import partial scss files */
+@import './SASS/navbar';
+@import './SASS/introduction';
+@import './SASS/project';
+@import './SASS/footer';
+@import './SASS/mixin';
+@import './SASS/techstack';
+@import './SASS/contactform';
+@import './SASS/_blog';
+
+
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "img": "img-1",
+        "alternative" : "laptop keyword",
+        "title":"How to design Resonposive Website ....",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore etdolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquipex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillumdolore eufugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa quifficiadeserunt mollit anim id est laborum .........."
+    },
+
+    {
+        "id": 2,
+        "img": "img-2",
+        "alternative" : "laptop showing",
+        "title":"Top 5 best tools for Web developer ....",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore etdolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquipex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillumdolore eufugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa quifficiadeserunt mollit anim id est laborum .........."
+    },
+    
+    {
+        "id": 3,
+        "img": "img-3",
+        "alternative" : "laptop showing",
+        "title":"Top 5 best tools for React developer ....",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore etdolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquipex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillumdolore eufugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa quifficiadeserunt mollit anim id est laborum .........."
+    }
+
+
+]

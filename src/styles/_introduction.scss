@@ -1,0 +1,134 @@
+@import './variable';
+/* || Introduction section */
+.home{
+    margin: 7rem 0 5rem;
+    &__first{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+           
+    }
+    &__article{
+        height: 100%;
+        width: 35rem;
+        margin-top: 10px;
+        
+        hr{
+          width:50%; 
+          margin: auto;
+        } 
+    }
+   
+        
+    &__img{
+        height: 100%;
+        width: 30rem;
+        border-radius: 30px 100px 30px;
+    }
+   
+    &__arrowdown{
+        padding: 5rem 0 0;
+        font-size: 2.5rem; 
+        text-align: center;
+    }
+
+    i{
+        font-size: 3rem;
+        color: $hover-color;
+        text-align: center;
+        margin-top: 5rem;
+        transition: 0.4s;
+    }
+
+    i:hover{
+        transform: scale(1.2);
+        color: rgb(169, 72, 85) ;
+
+    }  
+     
+}
+
+
+ #righthand {
+    transform-origin: center;
+    animation-name: rigthhandmove;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  @keyframes rigthhandmove {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  #head,
+  #head_2,
+  #head_3,
+  #head_4,
+  #head_5,
+  #head_6,
+  #head_7,
+  #head-8,
+  #head_9,
+  #head_10,
+  #head_11,
+  #head_12,
+  #head_13,
+  #head_14{
+    animation-name: headmoving;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    animation-timing-function:ease-in-out;
+    transform-origin: center;
+    
+  }
+  
+  @keyframes headmoving{
+    from{
+      transform: rotate(-5deg) ;
+      
+  
+    }
+    to{
+      transform: rotate(10deg) ;
+      animation-delay: 4s;
+    }
+  }
+  
+  
+
+  
+ @media only screen and (max-width: 768px) {
+    .home{
+        margin: 4rem 0 5rem;
+
+        &__first{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        &__article{
+            text-align: center;
+            width: 100%;
+        
+        }
+       
+        &__img{
+            margin-top: 1rem;
+            text-align: center;
+            height: 100%;
+            width: 100%;
+        
+        }
+        &__arrowdown{
+            padding: 1rem 0 0;
+            font-size: 2.5rem; 
+            text-align: center;
+        }
+    }
+}
